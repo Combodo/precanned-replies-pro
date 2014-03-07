@@ -24,17 +24,17 @@
  */
 
 Dict::Add('DE DE', 'German', 'Deutsch', array(
-	'Menu:PrecannedRepliesCategories' => 'Precanned Replies-Kategorien',
+	'Menu:PrecannedRepliesCategories' => 'Vorgefertigte Antworten Kategorien',
 	'Menu:PrecannedRepliesCategories+' => 'Kategorien von vorgefertigten Antworten (Precanned Replies)',
 
-	'Class:PrecannedReplyCategory' => 'Precanned Reply-Kategorie',
-	'Class:PrecannedReplyCategory+' => 'Precanned Reply',
+	'Class:PrecannedReplyCategory' => 'Vorgefertigte Antworten Kategorie',
+	'Class:PrecannedReplyCategory+' => 'Vorgefertigte Antwort',
 	'Class:PrecannedReplyCategory/Attribute:name' => 'Name',
 	'Class:PrecannedReplyCategory/Attribute:name+' => '',
 	'Class:PrecannedReplyCategory/Attribute:description' => 'Beschreibung',
 	'Class:PrecannedReplyCategory/Attribute:description+' => '',
-	'Class:PrecannedReplyCategory/Attribute:replies_list' => 'Precanned Replies',
-	'Class:PrecannedReplyCategory/Attribute:replies_list+' => 'Precanned Replies in dieser Kategorie',
+	'Class:PrecannedReplyCategory/Attribute:replies_list' => 'Vorgefertigte Antworten',
+	'Class:PrecannedReplyCategory/Attribute:replies_list+' => 'Vorgefertigte Antworten in dieser Kategorie',
 
 	'Class:PrecannedReply/Attribute:org_id' => 'Organisation',
 	'Class:PrecannedReply/Attribute:org_id+' => '',
