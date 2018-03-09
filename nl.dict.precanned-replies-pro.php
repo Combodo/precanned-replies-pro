@@ -17,28 +17,26 @@
 /**
  * Localized data
  *
- * @author      Erwan Taloc <erwan.taloc@combodo.com>
- * @author      Romain Quetiez <romain.quetiez@combodo.com>
- * @author      Denis Flaven <denis.flaven@combodo.com>
+ * @author      Jelle Defoort (https://github.com/jdefoort/iTopExtensions)
  * @license     http://www.opensource.org/licenses/gpl-3.0.html LGPL
  */
 
-Dict::Add('EN US', 'English', 'English', array(
-	'Menu:PrecannedRepliesCategories' => 'Precanned replies categories',
-	'Menu:PrecannedRepliesCategories+' => 'Precanned replies categories',
+Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
+	'Menu:PrecannedRepliesCategories' => 'Categorieën voorgedefinieerde antwoorden',
+	'Menu:PrecannedRepliesCategories+' => 'Categorieën voorgedefinieerde antwoorden',
 
-	'Class:PrecannedReplyCategory' => 'Precanned reply category',
-	'Class:PrecannedReplyCategory+' => 'Precanned reply',
-	'Class:PrecannedReplyCategory/Attribute:name' => 'Name',
+	'Class:PrecannedReplyCategory' => 'Categorie voorgedefinieerd antwoord',
+	'Class:PrecannedReplyCategory+' => 'Voorgedefinieerd antwoord',
+	'Class:PrecannedReplyCategory/Attribute:name' => 'Naam',
 	'Class:PrecannedReplyCategory/Attribute:name+' => '',
-	'Class:PrecannedReplyCategory/Attribute:description' => 'Description',
+	'Class:PrecannedReplyCategory/Attribute:description' => 'Omschrijving',
 	'Class:PrecannedReplyCategory/Attribute:description+' => '',
-	'Class:PrecannedReplyCategory/Attribute:replies_list' => 'Precanned Replies',
-	'Class:PrecannedReplyCategory/Attribute:replies_list+' => 'Precanned Replies in this category',
+	'Class:PrecannedReplyCategory/Attribute:replies_list' => 'Voorgedefinieerde antwoorden',
+	'Class:PrecannedReplyCategory/Attribute:replies_list+' => 'Voorgedefinieerde antwoorden in deze categorie',
 
-	'Class:PrecannedReply/Attribute:org_id' => 'Organization',
+	'Class:PrecannedReply/Attribute:org_id' => 'Organisatie',
 	'Class:PrecannedReply/Attribute:org_id+' => '',
-	'Class:PrecannedReply/Attribute:category_id' => 'Category',
+	'Class:PrecannedReply/Attribute:category_id' => 'Categorie',
 	'Class:PrecannedReply/Attribute:category_id+' => '',
 ));
 
