@@ -70,6 +70,13 @@
             </item>
           </items>
         </search>
+        <default_search>
+          <items>
+            <item id="name">
+              <rank>10</rank>
+            </item>
+          </items>
+        </default_search>
         <list>
           <items>
             <item id="name">
