@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Localized data
  *
@@ -8,7 +7,6 @@
  * @link        https://github.com/itop-itsm-ru/itop-rus
  * @license     http://www.opensource.org/licenses/gpl-3.0.html LGPL
  */
-
 Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Menu:PrecannedRepliesCategories' => 'Категории готовых ответов',
 	'Menu:PrecannedRepliesCategories+' => 'Категории готовых ответов',
@@ -27,3 +25,4 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Class:PrecannedReply/Attribute:category_id' => 'Категория',
 	'Class:PrecannedReply/Attribute:category_id+' => '',
 ));
+
