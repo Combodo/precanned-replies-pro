@@ -143,6 +143,16 @@
             </item>
           </items>
         </search>
+        <default_search>
+          <items>
+            <item id="org_id" _delta="define">
+              <rank>3</rank>
+            </item>
+            <item id="category_id" _delta="define">
+              <rank>6</rank>
+            </item>
+          </items>
+        </default_search>
         <list>
           <items>
             <item id="org_id" _delta="define">
