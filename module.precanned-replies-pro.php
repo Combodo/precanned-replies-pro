@@ -23,7 +23,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'precanned-replies-pro/1.0.9-dev',
+	'precanned-replies-pro/1.0.9',
 	array(
 		// Identification
 		//
