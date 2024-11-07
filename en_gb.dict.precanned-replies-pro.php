@@ -34,7 +34,7 @@ Dict::Add('EN GB', 'British English', 'British English', array(
 	'Class:PrecannedReplyCategory/Attribute:replies_list' => 'Precanned Replies',
 	'Class:PrecannedReplyCategory/Attribute:replies_list+' => 'Precanned Replies in this category',
 
-	'Class:PrecannedReply/Attribute:org_id' => 'Organization',
+	'Class:PrecannedReply/Attribute:org_id' => 'Organisation',
 	'Class:PrecannedReply/Attribute:org_id+' => '',
 	'Class:PrecannedReply/Attribute:category_id' => 'Category',
 	'Class:PrecannedReply/Attribute:category_id+' => '',
