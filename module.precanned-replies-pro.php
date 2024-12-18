@@ -17,13 +17,13 @@
 //   along with iTop. If not, see <http://www.gnu.org/licenses/>
 
 /**
- * @copyright   Copyright (C) 2010-2012 Combodo SARL
+ * @copyright   Copyright (C) 2010-2025 Combodo SARL
  * @license     http://opensource.org/licenses/AGPL-3.0
  */
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'precanned-replies-pro/1.1.0',
+	'precanned-replies-pro/1.2.0',
 	array(
 		// Identification
 		//
@@ -33,7 +33,7 @@ SetupWebPage::AddModule(
 		// Setup
 		//
 		'dependencies' => array(
-			'precanned-replies/1.3.0'
+			'precanned-replies/1.4.0'
 		),
 		'mandatory' => false,
 		'visible' => true,
