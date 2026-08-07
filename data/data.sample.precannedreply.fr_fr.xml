@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Set>
+    <PrecannedReply alias="PrecannedReply" id="1">
+        <name>Prise en compte d'un ticket</name>
+        <description>Réponse prédéfinie à utiliser pour informer le demandeur de la prise en compte de son ticket.
+        </description>
+        <body>&lt;p&gt;Bonjour $this-&amp;gt;caller_id_friendlyname$&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Nous vous
+            remercions pour votre demande. Celle ci a été enregistrée avec la référence &lt;strong&gt;‘$this-&amp;gt;ref$
+             $this-&amp;gt;title$’&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Notre équipe support va l'analyser et nous
+            reviendrons vers vous dans les plus brefs délais.&lt;/p&gt;&lt;p&gt;&lt;br&gt;Cordialement,&lt;/p&gt;&lt;p&gt;L'équipe
+            $this-&amp;gt;team_id_friendlyname$ &lt;/p&gt;
+        </body>
+        <org_id>2</org_id>
+        <category_id>1</category_id>
+    </PrecannedReply>
+    <PrecannedReply alias="PrecannedReply" id="2">
+        <name>Résolution de ticket</name>
+        <description>Réponse prédéfinie à utiliser pour informer le demandeur de la résolution de son ticket.
+        </description>
+        <body>&lt;p&gt;Bonjour $this-&amp;gt;caller_id_friendlyname$,&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Je résous le
+            ticket &apos;&lt;strong&gt;$this-&amp;gt;ref$  $this-&amp;gt;title$&lt;/strong&gt;&apos;, mais vous pouvez
+            ajouter un commentaire dans la semaine avant sa fermeture automatique.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Cordialement,&lt;/p&gt;&lt;p&gt;$this-&amp;gt;agent_id-&amp;gt;friendlyname$&lt;/p&gt;
+        </body>
+        <org_id>2</org_id>
+        <category_id>1</category_id>
+    </PrecannedReply>
+</Set>

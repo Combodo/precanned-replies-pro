@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Set>
+    <PrecannedReply alias="PrecannedReply" id="1">
+        <name>Aknowledging a ticket</name>
+        <description>Predefined response to be used to inform the caller that their ticket has been acknowledged.
+        </description>
+        <body>&lt;p&gt;Hello $this-&amp;gt;caller_id_friendlyname$&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Thank you for
+            your enquiry. It has been recorded in our system under reference number &lt;strong&gt;‘$this-&amp;gt;ref$
+             $this-&amp;gt;title$’&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Our support team will look into it and we will get
+            back to you as soon as possible.&lt;/p&gt;&lt;p&gt;&lt;br&gt;Kind regards,&lt;/p&gt;&lt;p&gt;The $this-&amp;gt;team_id_friendlyname$
+            team&lt;/p&gt;
+        </body>
+        <org_id>2</org_id>
+        <category_id>1</category_id>
+    </PrecannedReply>
+    <PrecannedReply alias="PrecannedReply" id="2">
+        <name>Ticket resolution</name>
+        <description>Predefined response to be used to inform the requester that their ticket has been resolved.
+        </description>
+        <body>&lt;p&gt;Hello $this-&amp;gt;caller_id_friendlyname$,&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;I am resolving
+            ticket &apos;&lt;strong&gt;$this-&amp;gt;ref$  $this-&amp;gt;title$&lt;/strong&gt;&apos;, but you may add a
+            comment within a week before it is automatically closed.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Kind regards,&lt;/p&gt;&lt;p&gt;$this-&amp;gt;agent_id-&amp;gt;friendlyname$&lt;/p&gt;
+        </body>
+        <org_id>2</org_id>
+        <category_id>1</category_id>
+    </PrecannedReply>
+</Set>

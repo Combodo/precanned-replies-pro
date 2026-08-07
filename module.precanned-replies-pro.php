@@ -1,4 +1,5 @@
 <?php
+
 // Copyright (C) 2010-2012 Combodo SARL
 //
 //   This file is part of iTop.
@@ -24,7 +25,7 @@
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
 	'precanned-replies-pro/1.2.0',
-	array(
+	[
 		// Identification
 		//
 		'label' => 'Helpdesk Precanned Replies Extension',
@@ -32,26 +33,28 @@ SetupWebPage::AddModule(
 
 		// Setup
 		//
-		'dependencies' => array(
-			'precanned-replies/1.4.0'
-		),
+		'dependencies' => [
+			'precanned-replies/1.4.0',
+		],
 		'mandatory' => false,
 		'visible' => true,
 
 		// Components
 		//
-		'datamodel' => array(
+		'datamodel' => [
 			'model.precanned-replies-pro.php',
-		),
-		'webservice' => array(
+		],
+		'webservice' => [
 
-		),
-		'data.struct' => array(
+		],
+		'data.struct' => [
 			// add your 'structure' definition XML files here,
-		),
-		'data.sample' => array(
+		],
+		'data.sample' => [
 			// add your sample data XML files here,
-		),
+			'data/data.sample.precannedreplycategory.en_us.xml',
+			'data/data.sample.precannedreply.en_us.xml',
+		],
 
 		// Documentation
 		//
@@ -60,11 +63,8 @@ SetupWebPage::AddModule(
 
 		// Default settings
 		//
-		'settings' => array(
+		'settings' => [
 			// Module specific settings go here, if any
-		),
-	)
+		],
+	]
 );
-
-
-?>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Set>
+    <PrecannedReplyCategory alias="PrecannedReplyCategory" id="1">
+        <name>Helpdesk</name>
+        <description>Réponses prédéfinies utilisées par le helpdesk</description>
+    </PrecannedReplyCategory>
+</Set>
